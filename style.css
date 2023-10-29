@@ -1,0 +1,345 @@
+body{
+	background-image:url(image/back.jpg);
+	background-size:100% 800px;
+	padding:0;
+	margin:0;
+	background-attachment:fixed;
+}
+
+ /*start Home page nav coding*/
+nav{
+	width:100%;
+	height:250px;
+	box-sizing:border-box;
+	background-color:rgba(0,0,0,0.6);
+	float:left;
+	padding:20px;
+}
+
+#welcome{
+	padding:0;
+	margin:0;
+	color:white;
+	text-align:center;
+	font-family:ubuntu;
+	font-size:90px;
+}
+
+#menu{
+	width:750px;
+	height:60px;
+	box-sizing:border-box;
+	margin-top:30px;
+}
+
+#menu-item{
+	width:20%;
+	height:60px;
+	box-sizing:border-box;
+	border-width:1px;
+	border-style:solid;
+	border-color:white;
+	text-align:center;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+	font-size:18px;
+	font-family:century gothic;
+}
+/*end Home page nav coding*/
+
+/*start Home page section coding*/
+#home-section{
+	width:720px;
+	height:531px;
+	float:right;
+	box-sizing:border-box;
+	background-image:url(image/s-img.png);
+}
+
+#logo{
+	width:180px;
+	height:180px;
+	box-sizing:border-box;
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	margin-left:200px;
+	margin-top:130px;
+}
+
+#logo-text{
+	padding:0;
+	margin:0;
+	color:white;
+	font-size:190px;
+	margin-top: -20px;
+}
+
+#domain{
+	padding:0;
+	margin:0;
+	color:white;
+	font-size:50px;
+	font-family:century gothic;
+	text-align:center;
+	margin-left:190px;
+}
+/*end Home page section coding*/
+
+/*start login page nav coding*/
+#domain-name{
+	padding:0;
+	margin:0;
+	color:white;
+	text-align:center;
+	font-size:65px;
+	font-family:century gothic;
+	
+}
+/*end login page nav coding*/
+
+/*start login page section coding*/
+
+#login-section{
+	width:720px;
+	height:531px;
+	float:right;
+	box-sizing:border-box;
+	background-image:url(image/s-img.png);
+}
+fieldset{
+	padding:30px;
+	width:380px;
+	height:280px;
+	border-width:3px;
+	border-style:solid;
+	border-color:white;
+	box-sizing:border-box;
+	margin-top:150px;
+	margin-left:270px;
+	
+}
+
+legend{
+	color:white;
+	font-size:21px;
+	font-family:century gothic;
+}
+
+#login-frm{
+	color:white;
+	font-family:century gothic;
+	font-size:18px;
+}
+
+#username{
+	width:100%;
+	height:35px;
+	box-sizing:border-box;
+	border:none;
+	background-color:inherit;
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	color:white;
+	font-size:17px;
+	font-family:century gothic;
+	margin-top:10px;
+}
+
+#password{
+	width:100%;
+	height:35px;
+	box-sizing:border-box;
+	border:none;
+	background-color:inherit;
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	color:white;
+	font-size:17px;
+	font-family:century gothic;
+	margin-top:10px;
+}
+
+#login-btn{
+	width:110px;
+	height:35px;
+	float:right;
+	box-sizing:border-box;
+	background-color:inherit;
+	border:none;
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	color:white;
+	font-size:17px;
+	font-family:century gothic;
+}
+
+/*end login page section coding*/
+
+/*start Contect page section coding*/
+
+#contect-section{
+	width:720px;
+	height:531px;
+	float:right;
+	box-sizing:border-box;
+	background-image:url(image/s-img.png);
+}
+#contect-detels{
+	color:white;
+	font-size:17px;
+	font-family:century gothic;
+	margin:10px;
+	line-height:40px;
+	font-style:normal;
+	
+}
+/*end Contect page section coding*/
+
+/*start Product page section coding*/
+#product-section{
+	width:100%;
+	height:1800px;
+	border-width:1px;
+	border-style:solid;
+	border-color:red;
+	box-sizing:border-box;
+}
+
+#brand{
+	width:100%;
+	height:400px;
+	box-sizing:border-box;
+	background-color:rgba(255,255,255,0.6);
+	float:left;
+}
+
+#brand-title{
+	text-align:center;
+	font-size:50px;
+	font-family:century gothic;
+}
+
+#brand-pic{
+	width:200px;
+	height:80px;
+	box-sizing:border-box;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	margin:31px;
+	float:left;
+	margin-top:10px;
+}
+
+#brand-box{
+	width:100%;
+	height:75px;
+	box-sizing:border-box;
+}
+
+#search{
+	width:60%;
+	height:35px;
+	box-sizing:border-box;
+	margin-left:20%;
+	margin-right:20%;
+	margin-top:30px;
+	background-image:url(image/search.jpg);
+	font-size:17px;
+	font-family:century gothic;
+	padding:10px;
+}
+
+#brand-show{
+	width:100%;
+	height:1800px;
+	box-sizing:border-box;
+	background-color:rgba(0,0,0,0.6);
+}
+
+#brand-heading{
+	color:white;
+	text-align:center;
+	font-size:40px;
+	font-family:verdana;
+}
+
+#lakme{
+	text-align:center;
+	color:white;
+	font-family:century gothic;
+	font-size:35px;
+	float:left;
+}
+
+/*end Product page section coding*/
+
+/*start Sign Up page section coding*/
+
+#Sign-section{
+	width:720px;
+	height:531px;
+	float:right;
+	box-sizing:border-box;
+	background-image:url(image/s-img.png);
+}
+
+#sign-heading{
+	margin-top:20px;
+	color:white;
+	font-size:21px;
+	font-family:century gothic;
+	margin-top:0px;
+}
+
+#sign-box{
+	padding:15px;
+	width:380px;
+	height:375px;
+	border-width:3px;
+	border-style:solid;
+	border-color:white;
+	box-sizing:border-box;
+	margin-top:120px;
+	margin-left:270px;
+	
+}
+
+#sign-frm{
+	width:100%;
+	height:35px;
+	box-sizing:border-box;
+	border-width:1px;
+	border-style:solid;
+	border-color:#ccc;
+	margin:10px;
+	font-size:15px;
+	font-family:century gothic;
+	padding:10px;
+}
+
+#sign-btn{
+	width:110px;
+	height:35px;
+	float:right;
+	box-sizing:border-box;
+	background-color:inherit;
+	border:none;
+	border-width:2px;
+	border-style:solid;
+	border-color:white;
+	color:white;
+	font-size:17px;
+	font-family:century gothic;
+	
+}
+
+
+/*end Sign Up page section coding*/
